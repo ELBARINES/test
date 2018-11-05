@@ -1,0 +1,1004 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
+
+
+ 
+
+ <style type="text/css">
+ body{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ }
+
+ td{
+ border:1px #eee solid; }
+
+ tr{
+ border:1px #eee solid; }
+
+th{
+ border:1px #eee solid; }
+ </style>
+
+
+ 
+</head>
+ 
+
+<body>
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ <div class="col-xs-12 col-sm-12 col-md-12">
+ <form method="POST" action="#" name="Miformularionombre" >
+ 
+ 
+ <table>
+ <tr > 
+
+ <td > 
+ Peso antes entreno (kg)
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c2' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(133,191,191,0.84)" onKeyUp="Totales()"/> 
+ </td> 
+</tr>
+
+
+
+
+<tr>
+ <td > 
+ Peso despues entreno (kg)
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c3' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(133,191,191,0.84)" onKeyUp="Totales()"/> 
+ </td> 
+</tr>
+
+
+
+
+
+<tr>
+ <td > 
+ Peso líquido ingerido (g=ml)
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c4' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(133,191,191,0.84) " onKeyUp="Totales()"/> 
+ </td> 
+</tr>
+
+
+
+
+
+<tr>
+ <td > 
+ Duración entreno (horas)
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c5' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(133,191,191,0.84)" onKeyUp="Totales()"/> 
+ </td> 
+</tr>
+
+
+
+
+
+
+<tr>
+ 
+ <td > 
+ 
+ Tasa de sudoración (ml/h)
+ 
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c7' size="7" class='form-control' id="skills2" style="text-align:center;background:#D5D4D2;" onKeyUp="Totales()" readonly="" /> 
+ 
+ 
+ </td> 
+</tr>
+
+
+ </table>
+
+
+
+</form>
+ <form name="Miformularionombre2" >
+
+
+<br><br> 
+<table>
+<tr>
+ <td> 
+ Duración de la competición/entreno (min)
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c10' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(133,191,191,0.84) " onKeyUp="Totales2()" /> 
+ </td> 
+</tr>
+
+
+
+<tr>
+ <td> 
+ Tasa de sudoración (ml/h)
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c11' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(133,191,191,0.84) " onKeyUp="Totales2()" /> 
+ </td> 
+</tr>
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+<tr>
+ <td style="background: "> 
+ Total líquido a ingerir (ml)
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c13' size="7" class='form-control' id="skills2" style="text-align:center;background:#D5D4D2" onKeyUp="Totales2()"/>
+
+ <input type='text' name='c14' size="7" class='form-control' id="skills2" style="text-align:center;background:#D5D4D2" onKeyUp="Totales2()"/>
+
+
+ </td> 
+</tr>
+
+
+
+
+
+<tr>
+ <td style="background: "> 
+Líquido a ingerir (ml/15min)
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c15' size="7" class='form-control' id="skills2" style="text-align:center;background:#D5D4D2" onKeyUp="Totales2()"/>
+
+ <input type='text' name='c16' size="7" class='form-control' id="skills2" style="text-align:center;background:#D5D4D2" onKeyUp="Totales2()"/>
+
+ 
+ </td> 
+</tr>
+
+
+
+
+<tr>
+ <td style="background:"> 
+Total líquido de bebida isotónica con hc (ml)
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c17' size="7" class='form-control' id="skills2" style="text-align:center;background:#D5D4D2" onKeyUp="Totales2()"/>
+
+ <input type='text' name='c18' size="7" class='form-control' id="skills2" style="text-align:center;background:#D5D4D2" onKeyUp="Totales2()"/>
+
+ 
+ </td> 
+</tr>
+
+
+
+
+
+<tr>
+ <td style="background: ;"> 
+ 
+ Total Hc a ingerir (g)
+ </td> 
+
+
+ <td> 
+ <input type='text' name='c20' size="7" class='form-control' id="skills2" style="text-align:center;background:#D5D4D2 ;" onKeyUp="Totales2()"/> 
+ </td> 
+</tr>
+
+
+
+
+
+
+<tr>
+ <td style="background: ;"> 
+ 
+ Hc a ingerir (g/30min)
+ </td> 
+ <td> 
+ 
+ <input type='text' name='c21' size="7" class='form-control' id="skills2" style="text-align:center;background: #D5D4D2;" onKeyUp="Totales2()"/> 
+ </td> 
+</tr>
+
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+</div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-xs-12 col-sm-12 col-md-12">
+ 
+ 
+ 
+ <input type='hidden' name='j10' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="0" /> 
+ 
+
+ 
+ <input type='hidden' name='k10' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="12:30:00 a.m."/> 
+ 
+
+
+ 
+ <input type='hidden' name='l10' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="30"/> 
+ 
+
+
+ 
+ <input type='hidden' name='m10' value="No es necesario" size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ /> 
+ 
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ <input type='hidden' name='j11' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="0" /> 
+ 
+
+ 
+ <input type='hidden' name='k11' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="30-60min" /> 
+ 
+
+
+ 
+ <input type='hidden' name='l11' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="60" /> 
+ 
+
+
+ 
+ <input type='hidden' name='m11' size="7" class='form-control' value="Solo enjuagues" id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ /> 
+ 
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+ 
+ 
+ <input type='hidden' name='j12' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="120.5" /> 
+ 
+
+ 
+ <input type='hidden' name='k12' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="1-2h" /> 
+ 
+
+
+ 
+ <input type='hidden' name='l12' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="120" /> 
+ 
+
+
+ 
+ <input type='hidden' name='m12' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()"
+ value="15" /> 
+ 
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+ 
+ 
+ <input type='hidden' name='j13' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()"
+ value="241" /> 
+ 
+
+ 
+ <input type='hidden' name='k13' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="2-3h" /> 
+ 
+
+
+ 
+ <input type='hidden' name='l13' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="180" /> 
+ 
+
+
+ 
+ <input type='hidden' name='m13' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="30" /> 
+ 
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+ 
+ 
+ <input type='hidden' name='j14' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="361.5" /> 
+ 
+
+ 
+ <input type='hidden' name='k14' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="3-4h" /> 
+ 
+
+
+ 
+ <input type='hidden' name='l14' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="240" /> 
+ 
+
+
+ 
+ <input type='hidden' name='m14' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="45" /> 
+ 
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+ 
+ 
+ <input type='hidden' name='j15' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="441.8333333" /> 
+ 
+
+ 
+ <input type='hidden' name='k15' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value=">4h" /> 
+ 
+
+
+ 
+ <input type='hidden' name='l15' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="240" /> 
+ 
+
+
+ 
+ <input type='hidden' name='m15' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="55" /> 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <input type='hidden' name='j16' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="550" /> 
+ 
+
+ 
+ <input type='hidden' name='k16' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value=">5a6h" /> 
+ 
+
+
+ 
+ <input type='hidden' name='l16' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="360" /> 
+ 
+
+
+ 
+ <input type='hidden' name='m16' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="55" /> 
+
+
+
+
+
+
+ <input type='hidden' name='j17' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="660" /> 
+ 
+
+ 
+ <input type='hidden' name='k17' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value=">6a7h" /> 
+ 
+
+
+ 
+ <input type='hidden' name='l17' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="420" /> 
+ 
+
+
+ 
+ <input type='hidden' name='m17' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="55" /> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <input type='hidden' name='j18' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="770" /> 
+ 
+
+ 
+ <input type='hidden' name='k18' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value=">7a8h" /> 
+ 
+
+
+ 
+ <input type='hidden' name='l18' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="480" /> 
+ 
+
+
+ 
+ <input type='hidden' name='m18' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="55" /> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <input type='hidden' name='j19' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="880" /> 
+ 
+
+ 
+ <input type='hidden' name='k19' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value=">8a9h" /> 
+ 
+
+
+ 
+ <input type='hidden' name='l19' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="540" /> 
+ 
+
+
+ 
+ <input type='hidden' name='m19' size="7" class='form-control' id="skills2" style="text-align:center;" onKeyUp="Totales2()" 
+ value="55" /> 
+
+
+
+
+
+</table>
+
+</div>
+ 
+
+
+ </form> 
+ 
+ 
+
+ 
+
+ 
+
+</body>
+</html>
+
+ 
+
+
+ <script language="javascript">
+//el nombre de nustra funcion "Totales"
+ function Totales() {
+ with (document.forms["Miformularionombre"]) // el nombre del formulario
+ {
+ 
+
+
+
+ var c7Result = ((Number(c2.value) - Number(c3.value))*( (1000)) + Number(c4.value)) / Number(c5.value);
+ c7.value = roundTo(c7Result,0);
+
+
+
+ 
+ 
+ }
+ }
+
+
+
+ 
+
+function roundTo(num,pow){
+ 
+ if( 
+ isNaN( num ) ){
+ num=Int(num);
+ num = num.toLocaleString(['ban', 'id']);
+ num = 0;
+ 
+ }
+ 
+ num *= Math.pow(10,pow);
+ num = (Math.round(num)/Math.pow(10,pow))+ "" ;
+ if(num.indexOf("") == -1)
+ num += "" ;
+ while(num.length - num.indexOf(".") - 1 < pow)
+ num += "0" ;
+
+ return num;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+ 
+function Totales2() {
+ with (document.forms["Miformularionombre2"]) // el nombre del formulario
+ {
+ 
+
+
+ var c13Result = (Number(c11.value) * ((80) / (100))) * (Number(c10.value) / Number(60));
+ c13.value = roundTo2(c13Result,0);
+
+ var c14Result = Number(c11.value) * (Number(c10.value) / (60));
+ c14.value = roundTo2(c14Result,0);
+
+ var c15Result = (Number(c11.value) * ((80) / (100))) / (4);
+ c15.value = roundTo2(c15Result,0);
+
+ var c16Result = Number(c11.value) / Number(4);
+ c16.value = roundTo2(c16Result,0);
+
+ var c17Result = (Number(c13.value) * (75) / (100));
+ c17.value = roundTo2(c17Result,0);
+
+ var c18Result = (Number(c14.value) * (75) / (100));
+ c18.value = roundTo2(c18Result,0);
+
+
+ 
+ 
+ 
+
+ if (Number(c10.value) <= Number(l10.value)){
+ var c20Result = Number(j10.value); 
+ c20.value = roundTo2(c20Result,0);
+ 
+ } else {
+
+ if (Number(c10.value) <= Number(l11.value)){
+ var c20Result = Number(j11.value); 
+ c20.value = roundTo2(c20Result,0);
+
+ } else {
+
+ if (Number(c10.value) <= Number(l12.value)){
+ var c20Result = Number(j12.value); 
+ c20.value = roundTo2(c20Result,0);
+ 
+ } else {
+
+if (Number(c10.value) <= Number(l13.value)){
+ var c20Result = Number(j13.value); 
+ c20.value = roundTo2(c20Result,0);
+
+ } else {
+
+if (Number(c10.value) <= Number(l14.value)){
+ var c20Result = Number(j14.value); 
+ c20.value = roundTo2(c20Result,0);
+
+
+
+ } else {
+
+ if (Number(c10.value) <= Number(l15.value)){
+ var c20Result = Number(j15.value); 
+ c20.value = roundTo2(c20Result,0); 
+
+
+ } else {
+
+ if (Number(c10.value) <= Number(l16.value)){
+ var c20Result = Number(j16.value); 
+ c20.value = roundTo2(c20Result,0); 
+
+
+ } else {
+
+ if (Number(c10.value) <= Number(l17.value)){
+ var c20Result = Number(j17.value); 
+ c20.value = roundTo2(c20Result,0); 
+
+ } else {
+
+ if (Number(c10.value) <= Number(l17.value)){
+ var c20Result = Number(j17.value); 
+ c20.value = roundTo2(c20Result,0); 
+
+ } else {
+
+
+if (Number(c10.value) <= Number(l18.value)){
+ var c20Result = Number(j18.value); 
+ c20.value = roundTo2(c20Result,0); 
+
+} else {
+
+
+if (Number(c10.value) <= Number(l19.value)){
+ var c20Result = Number(j19.value); 
+ c20.value = roundTo2(c20Result,0); 
+
+
+ } 
+ } 
+ } 
+ }
+ }
+ } 
+ } 
+ } 
+ }
+ }
+ }
+
+
+
+
+
+ 
+ if (Number(c10.value) <= Number(l10.value)){
+ 
+ var c21Result = Number(m10.value);
+if (isNaN(Number(m10.value))) {
+ var c21Result = "No es necesario";
+ c21.value = c21Result;
+ }else{
+ var c21Result = Number(m10.value);
+ c21.value = roundTo12(c21Result,0); }
+
+ 
+ 
+ } else {
+
+ if (Number(c10.value) <= Number(l11.value)){
+
+var c21Result = Number(m11.value);
+if (isNaN(Number(m10.value))) {
+ var c21Result = "Solo enjuagues";
+ c21.value = c21Result;
+ }else{
+ var c21Result = Number(m11.value);
+ c21.value = roundTo12(c21Result,0); }
+
+
+ } else {
+
+ if (Number(c10.value) <= Number(l12.value)){
+ var c21Result = Number(m12.value); 
+ c21.value = roundTo2(c21Result,0);
+ 
+ } else {
+
+if (Number(c10.value) <= Number(l13.value)){
+ var c21Result = Number(m13.value); 
+ c21.value = roundTo2(c21Result,0);
+
+ } else {
+
+if (Number(c10.value) <= Number(l14.value)){
+ var c21Result = Number(m14.value); 
+ c21.value = roundTo2(c21Result,0);
+
+
+ } else {
+
+ if (Number(c10.value) <= Number(l15.value)){
+ var c21Result = Number(m15.value); 
+ c21.value = roundTo2(c21Result,0); 
+
+
+ } else {
+
+ if (Number(c10.value) <= Number(l16.value)){
+ var c21Result = Number(m16.value); 
+ c21.value = roundTo2(c21Result,0); 
+
+
+ } else {
+
+ if (Number(c10.value) <= Number(l17.value)){
+ var c21Result = Number(m17.value); 
+ c21.value = roundTo2(c21Result,0); 
+
+ } else {
+
+ if (Number(c10.value) <= Number(l17.value)){
+ var c21Result = Number(m17.value); 
+ c21.value = roundTo2(c21Result,0); 
+
+ } else {
+
+
+if (Number(c10.value) <= Number(l18.value)){
+ var c21Result = Number(m18.value); 
+ c21.value = roundTo2(c21Result,0); 
+
+} else {
+
+
+if (Number(c10.value) <= Number(l19.value)){
+ var c21Result = Number(m19.value); 
+ c21.value = roundTo2(c21Result,0); 
+
+
+ } 
+ } 
+ } 
+ }
+ }
+ } 
+ } 
+ } 
+ }
+ }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ }
+ }
+ 
+ 
+</script>
+
+
+
+
+<script type="text/javascript">
+ 
+
+ function roundTo2(num,pow){
+ 
+ if( 
+ isNaN( num ) ){
+ num=Int(num);
+ num = num.toLocaleString(['ban', 'id']);
+ num = 0;
+ 
+ }
+ 
+ num *= Math.pow(10,pow);
+ num = (Math.round(num)/Math.pow(10,pow))+ "" ;
+ if(num.indexOf("") == -1)
+ num += "" ;
+ while(num.length - num.indexOf(".") - 1 < pow)
+ num += "0" ;
+
+ return num;
+}
+
+
+</script>
+
+
+<script type="text/javascript">
+ 
+ function roundTo12(num){
+ if( 
+ isNaN(num.toString())){
+
+ num = num.toString();
+ 
+ 
+ }
+ 
+ return num;
+}
+ 
+
+</script>
+
+

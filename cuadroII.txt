@@ -1,0 +1,688 @@
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+</style>
+ 
+
+ <style type="text/css">
+ body{
+ 
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ }
+
+ td{
+ border:1px #eee solid; }
+
+ tr{
+ border:1px #eee solid; }
+
+th{
+ border:1px #eee solid; }
+
+
+ </style>
+
+ 
+</head>
+ 
+
+<body>
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ <div class="col-xs-12 col-sm-12 col-md-12">
+ <form method="POST" action="#" name="Miformularionombre3" >
+ 
+ 
+ <table>
+
+ <tr > 
+
+ <th colspan="10" style="background:#c3c3c3; "><center>Tus Registros</th>
+ 
+</tr>
+ <tr style="background:"> 
+
+ <th><center>Duración</th>
+ <th><center>Potencia (w)</th>
+</tr>
+
+
+
+
+<tr>
+ <td> 
+ 
+ <center>12 segundos
+ </td> 
+ 
+ <td> 
+ 
+ <input type='text' name='d5' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(133,191,191,0.84);" onKeyUp="Totales3()"/> 
+ </td> 
+</tr>
+ 
+
+
+
+
+
+
+<tr>
+ <td> 
+ 
+ <center>3 minutos
+ </td> 
+ 
+ <td> 
+ 
+ <input type='text' name='d6' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(133,191,191,0.84);" onKeyUp="Totales3()"/> 
+ </td> 
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+ <td> 
+ 
+ <center> 7 minutos
+ </td> 
+ 
+ <td> 
+ 
+ <input type='text' name='d7' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(133,191,191,0.84);" onKeyUp="Totales3()"/> 
+ </td> 
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+ <td> 
+ 
+ <center>20 minutos
+ </td> 
+ 
+ <td> 
+ 
+ <input type='text' name='d8' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(133,191,191,0.84);" onKeyUp="Totales3()"/> 
+ </td> 
+</tr> 
+ 
+
+</table>
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ <center><table width="100%">
+
+ <tr style="width:100%;"> 
+ 
+ <th style="background: #c3c3c3;border:none;" > <center > Zonas</center></th>
+ <th style="background: #c3c3c3;border:none;" > <center> Potencia (w)</div></th>
+ 
+ 
+
+</tr>
+ 
+ </table>
+
+
+ <table >
+ <tr > 
+
+ <th><center> </th>
+ <th><center>Desde</th>
+ <th ><center>Hasta</th>
+</tr>
+
+
+
+
+<tr>
+ <td> 
+ 
+ z1- Recuperación activa
+ </td> 
+ 
+ 
+
+ <td colspan="5"> 
+ 
+ <input type='text' name='de12' size="7" class='form-control' id="skills2" style="text-align:center;background:#81BEF7;" onKeyUp="Totales3()" /> 
+ </td> 
+
+</tr>
+ 
+
+
+
+
+
+
+<tr>
+ <td> 
+ 
+ z2- Rodaje Aeróbico
+ </td> 
+ 
+ <td colspan="1"> 
+ 
+ <input type='text' name='d13' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(99,155,105,0.84);width:100%;" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+ <td colspan="4"> 
+ 
+ <input type='text' name='e13' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(99,155,105,0.84)" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+ <td> 
+ 
+ z3- Tempo
+ </td> 
+ 
+ <td> 
+ 
+ <input type='text' name='d14' size="7" class='form-control' id="skills2" style="text-align:center;background:rgba(247,245,158,0.84) " onKeyUp="Totales3()"/> 
+ </td> 
+
+
+
+ <td> 
+ 
+ <input type='text' name='e14' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(247,245,158,0.84)" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+ <td> 
+ 
+ z4- Umbral
+ </td> 
+ 
+ <td> 
+ 
+ <input type='text' name='d15' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(226,210,145,0.84)" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+
+
+ <td> 
+ 
+ <input type='text' name='e15' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(226,210,145,0.84)" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+</tr> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+ <td> 
+ 
+ z5- VO2máx.
+ </td> 
+ 
+ <td> 
+ 
+ <input type='text' name='d16' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(234,167,150,0.84)" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+
+
+ <td> 
+ 
+ <input type='text' name='e16' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(234,167,150,0.84)" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+</tr> 
+
+
+
+
+
+
+ 
+
+
+
+
+<tr>
+ <td> 
+ 
+ z6- Capacidad anaeróbica
+ </td> 
+ 
+ <td> 
+ 
+ <input type='text' name='d17' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(219,140,170,0.84)" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+
+
+ <td> 
+ 
+ <input type='text' name='e17' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(219,140,170,0.84)" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+</tr> 
+
+
+
+
+
+
+
+
+
+
+<tr>
+ <td> 
+ 
+ z7- Potencia neuromuscular
+ </td> 
+ 
+ <td> 
+ 
+ <input type='text' name='d18' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(102,101,158,0.84)" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+
+
+ <td> 
+ 
+ <input type='text' name='e18' size="7" class='form-control' id="skills2" style="text-align:center;background: rgba(102,101,158,0.84)" onKeyUp="Totales3()"/> 
+ </td> 
+
+
+</tr> 
+
+
+
+
+
+
+</table>
+ </div> 
+
+ </form> 
+ 
+ 
+
+ 
+
+ 
+
+</body>
+</html>
+
+ 
+
+
+ <script language="javascript">
+//el nombre de nustra funcion "Totales"
+ function Totales3() {
+ with (document.forms["Miformularionombre3"]) // el nombre del formulario
+ {
+ 
+
+
+
+ var de12Result = Number(d8.value) * ((55) / (100));
+ de12.value = roundTo4(de12Result,0);
+
+
+
+ var d13Result = Number(d8.value) * ((55) / (100)) + (1);
+ d13.value = roundTo3(d13Result,0);
+
+
+ var e13Result = Number(d8.value) * ((75) / (100));
+ e13.value = roundTo3(e13Result,0);
+
+ 
+
+
+
+
+
+
+
+
+
+
+ var d14Result = Number(d8.value) * ((75) / (100)) + (1);
+ d14.value = roundTo3(d14Result,0);
+
+
+ var e14Result = Number(d8.value) * ((95) / (100));
+ e14.value = roundTo3(e14Result,0);
+
+
+
+
+
+
+
+
+
+
+ var d15Result = Number(d8.value) * ((95) / (100)) + (1);
+ d15.value = roundTo3(d15Result,0);
+
+
+ var e15Result = Number(d7.value);
+ e15.value = roundTo3(e15Result,0);
+
+
+
+
+
+
+
+
+
+
+
+
+
+ var d16Result = Number(d7.value) + (1);
+ d16.value = roundTo3(d16Result,0);
+
+
+ var e16Result = Number(d6.value);
+ e16.value = roundTo3(e16Result,0);
+
+
+
+
+
+
+
+
+
+ var d17Result = Number(d6.value) + (1);
+ d17.value = roundTo3(d17Result,0);
+
+
+ var e17Result = Number(d5.value);
+ e17.value = roundTo3(e17Result,0);
+
+
+
+
+
+
+
+
+
+ var d18Result = Number(d5.value) + (1);
+ d18.value = roundTo3(d18Result,0);
+
+
+ var e18Result = "Máx.";
+ e18.value = e18Result;
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+ }
+
+
+
+ 
+
+function roundTo3(num,pow){
+ 
+ if( 
+ isNaN( num ) ){
+ num=Int(num);
+ num = num.toLocaleString(['ban', 'id']);
+ num = num.toFixed(0); 
+
+ num = 0;
+ 
+ }
+ 
+ num *= Math.pow(10,pow);
+ num = (Math.round(num)/Math.pow(10,pow))+ "" ;
+ if(num.indexOf("") == -1)
+ num += "" ;
+ while(num.length - num.indexOf(".") - 1 < pow)
+ num += "0" ;
+
+ return num;
+}
+
+
+
+
+
+function roundTo4(num,pow){
+ 
+ if( 
+ isNaN( num ) ){
+ num=Int(num);
+ num = num.toLocaleString(['ban', 'id']);
+ num = num.toFixed(0); 
+
+ num = 0;
+ 
+ }
+ 
+ num *= Math.pow(10,pow);
+ num = "<" + (Math.round(num)/Math.pow(10,pow))+ "" ;
+ if(num.indexOf("") == -1)
+ num += "" ;
+ while(num.length - num.indexOf(".") - 1 < pow)
+ num += "0" ;
+
+ return num;
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
